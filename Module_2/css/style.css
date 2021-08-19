@@ -1,40 +1,60 @@
-body {
+* {
 	box-sizing: border-box;
 	font-family: Arial, sans serif;
+	margin: 0px;
+	padding: 0px;
 }
 h1 {
 	text-align: center;
+	margin: 50px;
 }
-section {
-	background: green;
-	padding: 20px;
+div {
+	float: left;
+	border: solid black 2px;
+	padding: 0px;
+	margin: 1.5%;
+	background-color: lightgrey;
 }
-.div1 {
-	background: blue;
+h2 {
+	text-align: center;
+	border: solid black 2px;
+	width: 150px;
+	float: right;
+	margin: -2px;
 }
-.div2 {
-	background: red;
+#Chicken {
+	background-color: lightpink;
 }
-.div3 {
-	background: yellow;
+#Beef {
+	background-color: darkred;
+	color: ghostwhite;
 }
-.option {
-	background: white;
-	border: black 2px;
-	margin: 5px;
-	width: 30px;
+#Sushi {
+	background-color: lightgoldenrodyellow;
+}
+p {
+	clear: right;
+	margin: 10px;
+	margin-top: 40px;
+}
 
 /*Large Screen*/
-@media (min-width: 992px;) {
-
+@media (min-width: 992px) {
+div {
+	float: left;
+	width: 30.33%;
+	border: solid black 2px;
+	padding: 0px;
+	margin: 1.5%;
+}
 }
 
 /*Medium Screen*/
-@media (min-width: 768px; max-width: 991px;) {
-
-}
-
-/*Small Screen*/
-@media (max-width: 767px;) {
-
+@media (min-width: 768px) AND (max-width:  991px) {
+#div1, #div2{
+	float: left;
+	width: 47%;
+	border: solid black 2px;
+	padding: 0px;
+	margin: 1.5%;
 }
