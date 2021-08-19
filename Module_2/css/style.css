@@ -7,16 +7,23 @@ h1 {
 }
 section {
 	background: green;
+	padding: 20px;
 }
-#div1 {
+.div1 {
 	background: blue;
 }
-#div2 {
+.div2 {
 	background: red;
 }
-#div3 {
+.div3 {
 	background: yellow;
 }
+.option {
+	background: white;
+	border: black 2px;
+	margin: 5px;
+	width: 30px;
+
 /*Large Screen*/
 @media (min-width: 992px;) {
 
@@ -29,5 +36,5 @@ section {
 
 /*Small Screen*/
 @media (max-width: 767px;) {
-	
+
 }
