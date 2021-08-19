@@ -10,17 +10,17 @@ h1 {
 }
 div {
 	float: left;
-	border: solid black 2px;
+	border: solid black 1px;
 	padding: 0px;
 	margin: 1.5%;
 	background-color: lightgrey;
 }
 h2 {
 	text-align: center;
-	border: solid black 2px;
+	border: solid black 1px;
 	width: 150px;
 	float: right;
-	margin: -2px;
+	margin: -1px;
 }
 #Chicken {
 	background-color: lightpink;
@@ -43,7 +43,7 @@ p {
 div {
 	float: left;
 	width: 30.33%;
-	border: solid black 2px;
+	border: solid black 1px;
 	padding: 0px;
 	margin: 1.5%;
 }
@@ -54,7 +54,7 @@ div {
 #div1, #div2{
 	float: left;
 	width: 47%;
-	border: solid black 2px;
+	border: solid black 1px;
 	padding: 0px;
 	margin: 1.5%;
 }
